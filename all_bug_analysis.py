@@ -13,6 +13,8 @@ import subprocess
 from datetime import datetime
 
 
+#test comment 
+
 def ans2part1(file_):
     df_ = pd.read_csv(file_) 
     df_closed_bugs = df_[df_['CLOSED']!='NOT_CLOSED'] 
